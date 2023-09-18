@@ -1,0 +1,53 @@
+.wrapper{
+    width: 100%;
+    background: var(--blue-color);
+    height: 50px;
+   .content-wp{
+      height: 100%;
+    max-width: 1100px;
+    margin: auto;
+      .content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .wrapperItem{
+   
+  
+          padding: 17px 10px;
+          font-size: 16px;
+        
+          line-height: 16px;
+          color: white;
+          text-decoration: none;
+          &:hover{
+              background: var(--red-color);
+          }
+          &.active{
+              background: var(--red-color);
+          }
+        }
+       
+      }
+   }
+   &.sticky{
+     position: sticky;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+   }
+ 
+   
+}
+
+
+
+@media(max-width:767.98px){
+  .wrapper{
+    display: none;
+}
+
+
+
+}

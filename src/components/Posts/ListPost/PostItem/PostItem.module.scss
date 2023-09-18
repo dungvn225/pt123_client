@@ -1,0 +1,143 @@
+.wrapper{
+     border-top: 1px solid var(--red-color);
+     border-bottom: 1px solid var(--red-color);
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 10px;
+    .img{
+        width: 40%;
+       
+        position: relative;
+        border-radius: 4px;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: auto;
+            opacity: 0;
+        }
+        .info{
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 10px;
+            align-items: center;
+            
+            color: white;
+            width: 100%;
+             
+            .icon{
+                 margin-right: 10px;
+                 font-size: 20px;
+                
+               
+             
+            }
+            .text{
+                margin-left: 10px;
+                padding: 4px 10px;
+                background: rgba(0, 0, 0, 0.39);
+            }
+        }
+    }
+
+    .content{
+        padding: 10px;
+        width: 60%;
+        .title{
+           
+            color: var(--red-color);
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: 600;
+            .star{
+                color: var(--yellow-color);
+            }
+        }
+        .attributes{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .money{
+                color: var(--green-color);
+            }
+            .address{
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+        .time{
+            text-align: right;
+        }
+        .description{
+            color: #000000b3;
+        }
+        .contact{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            .avatar{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+            }
+            .name{
+                color: #000000b3;
+                word-break: break-word;
+            }
+            .zalo{
+                border: 1px solid var(--blue-color);
+                padding: 6px;
+                color: var(--blue-color);
+                border-radius: 4px;
+                text-align: right;
+                margin-right: 4px;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                    background: var(--blue-color);
+                }
+            }
+            .phone{
+                color: white;
+                background: var(--blue-color);
+                border: 1px solid var(--blue-color);
+                padding: 6px;
+                cursor: pointer;
+                border-radius: 4px;
+
+            }
+        }
+       
+        
+    }
+         
+    
+  
+}
+
+@media(max-width:575.98px){
+    .wrapper{
+         flex-wrap: wrap;
+       .img{
+           width: 100%;
+          
+       }
+   
+       .content{
+         
+           width: 100%;
+       }
+            
+       
+     
+   }
+}
+
+

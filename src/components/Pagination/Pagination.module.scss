@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+   
+    justify-content: center;
+    .start-icon,.end-icon{
+        cursor: pointer;
+    }
+}

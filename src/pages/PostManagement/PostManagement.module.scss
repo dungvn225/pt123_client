@@ -1,0 +1,66 @@
+.wrapper{
+    .head{
+      
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+      .title{
+        font-weight: bold;
+        margin: 20px;
+    }
+    select{
+      height: 30px;
+      outline: none;
+    }
+    }
+    .posts{
+        width: 90%;
+        margin: auto;
+       
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+            
+          }
+          td{
+            img{
+              width: 50px;
+            }
+          }
+         
+
+    }
+  
+}
+
+
+
+
+@media(max-width:1199.98pxpx) {
+  
+}
+@media(max-width:991.98px) {
+    .wrapper{
+     
+        .content{
+            width: 90%;
+        }
+    }
+}
+
+@media(max-width:767.98px) {
+   
+}
+
+
+@media(max-width:575.98px) {
+  
+}

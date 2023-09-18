@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    width: 20%;
+    height: 70%;
+    justify-content: space-between;
+    color: gray;
+    .left{
+        display: flex;
+        align-items: center;
+      
+        .text{
+            font-size: 14px;
+           margin-left: 4px;
+        }
+    }
+}
+
+.wrapper:last-child{
+    background: var(--blue-color);
+    color: white;
+    justify-content: center;
+}
+
+
+@media(max-width:767.98px){
+    .wrapper{
+       
+        width: 100%;
+       
+        padding: 10px 0px;
+        margin: 4px 0px;
+       
+    }
+    
+    
+}

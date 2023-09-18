@@ -1,0 +1,17 @@
+.wrapper{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(105 95 95 / 16%);
+    display: flex;
+    .content{
+        width: 80%;
+        margin: 0px auto;
+        background: white;
+        height: 100vh;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+}

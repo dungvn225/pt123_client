@@ -1,0 +1,30 @@
+.wrapper{
+   
+    width: 50%;
+    margin: auto;
+  
+   
+   
+
+        margin: 0px 4px;
+        color: black;
+        border: 1px solid #80808057;
+        border-radius: 4px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        line-height: 50px;
+        text-align: center;
+        &:hover{
+            background: var(--red-color);
+            color: white;
+            cursor: pointer;
+        }
+        &.active{
+            background: var(--red-color);
+            color: white;
+        }
+       
+    
+}

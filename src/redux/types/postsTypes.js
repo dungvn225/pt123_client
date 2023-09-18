@@ -1,0 +1,19 @@
+export const  GET_POSTS='GET_POSTS'
+
+export const  GET_POSTS_LIMIT='GET_POSTS_LIMIT'
+
+export const GET_NEW_POST='GET_NEW_POST'
+
+export const GET_OUTSTANDING_POST='GET_OUTSTANDING_POST'
+
+export const GET_POSTS_LIMIT_CURRENT='GET_POSTS_LIMIT_CURRENT'
+
+export const EDIT_POST='EDIT_POST;'
+
+
+export const RESET_DATAEDIT='RESET_DATAEDIT;'
+
+export const DELETE_POST='DELETE_POST' 
+
+export const SAVE_POST='SAVE_POST'
+

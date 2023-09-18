@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 2%;
+  
+    .content{
+        width: 70%;
+        border: 1px solid #a5a3a3;
+        border-radius: 4px;
+        height: auto;
+        align-self: flex-start;
+        padding: 0px 10px 20px 10px;
+         .postEmpty{
+           text-align: center;
+           
+         }
+    }
+    .sidebar{
+        width: 30%;
+
+    }
+}
+
+
+@media(max-width:575.98px){
+    .wrapper{
+        flex-wrap: wrap;
+        width: 100%;
+        .content{
+            width: 100%;
+          
+        }
+        .sidebar{
+            display: none;
+    
+        }
+    }
+}

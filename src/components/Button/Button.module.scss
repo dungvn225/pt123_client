@@ -1,0 +1,29 @@
+.wrapper{
+     background: var(--blue-color);
+     color: white;
+     padding: 8px ;
+     border-radius: 6px;
+     line-height: 16px;
+     display: inline-flex;
+     align-items: center;
+       text-decoration: none;
+       cursor: pointer;
+     &:hover{
+        opacity: 0.9;
+     }
+     &.bgRed{
+       background: var(--red-color) ;
+     }
+     
+     &.btnRegister{
+      margin-left: 4px;
+     }
+     &.btnLogout{
+      margin-left: 10px;
+      width: 84%;
+     }
+     &.bgYellow{
+      background: var(--yellow-color);
+      color: black;
+     }
+}

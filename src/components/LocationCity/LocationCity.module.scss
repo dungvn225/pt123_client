@@ -1,0 +1,32 @@
+
+.wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px  auto 0px auto;
+  
+}
+ 
+
+
+@media(max-width:767.98px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px  auto 0px auto;
+        overflow-x: auto;  
+        scrollbar-width:3px; 
+       &::-webkit-scrollbar{  
+        background: transparent; 
+        height: 10px;
+       }
+       &::-webkit-scrollbar-track{
+        background: transparent;
+       }
+       &::-webkit-scrollbar-thumb{
+        background: transparent;
+       }
+      
+    }
+}

@@ -1,0 +1,1 @@
+export const GET_AREAS='GET_AREAS'

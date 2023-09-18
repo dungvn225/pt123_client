@@ -1,0 +1,62 @@
+.wrapper{
+      h4{
+        margin: 10px;
+      }
+     .content{
+        width: 60%;
+        margin: auto;
+       .form-group{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         &.password{
+            margin-top: 40px;
+         }
+         .title{
+
+         }
+         .value{
+             
+             width: 76%;
+             &.phoneChange{
+                color: blue;
+                margin-bottom: 40px;
+                cursor: pointer;
+             }
+             &.passwordChange{
+                color: blue;
+                margin: 20px 0px;
+                cursor: pointer;
+             }
+             input{
+                width: 100%;
+                outline: none;
+                height: 30px;
+                border-radius: 4px;
+                border: 1px solid black;
+                margin: 6px 0px;
+                padding-left: 4px;
+                
+             }
+             img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+             }
+             label{
+               
+   
+    padding: 4px 20px;
+    background: #80808033;
+    border-radius: 4px;
+             }
+         }
+       }
+       .btnUpdate{
+        width: 100%;
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+       }
+     }
+}
